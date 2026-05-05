@@ -145,11 +145,15 @@ function Home() {
               <span className="contact-icon">in</span>
               linkedin.com/in/kevin-barragan
             </a>
-            <Link to="/resume" className="btn btn-primary" style={{ marginTop: '1.5rem' }}>
+          </div>
+
+          {/* Resume button — outside contact-links */}
+          <div style={{ marginTop: '2rem' }}>
+            <Link to="/resume" className="btn btn-primary">
               View My Resume
             </Link>
           </div>
-        </div>
+          </div>
       </section>
     </main>
   );
