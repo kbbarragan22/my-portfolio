@@ -149,10 +149,12 @@ function Home() {
               <span className="contact-icon">in</span>
               linkedin.com/in/kevin-barragan
             </a>
+            <a>
             <Link to="/resume" className="contact-item">
               <span className="contact-icon">📄</span>
               View My Resume
             </Link>
+            </a>
             </div>
           </div>
       </section>
