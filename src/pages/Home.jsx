@@ -18,7 +18,7 @@ const projects = [
     title: 'DraftBots',
     desc: 'Ever wanted to bet on a pure random chance on bots playing sports rather than betting on rigged real life sports?? Me niether. But here is a platform where you can! [Currently In Progress]',
     tags: ['HTML', 'CSS', 'Node.js'],
-    link: 'https://github.com/Tjrains/CIS-444-DraftBots-Website.git',
+    link: 'https://github.com/kbbarragan22/DraftBots',
   },
   {
     title: 'Portfolio',
