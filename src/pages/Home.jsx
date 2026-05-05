@@ -153,7 +153,8 @@ function Home() {
 
           {/* Resume button — outside contact-links */}
           <div style={{ marginTop: '2rem' }}>
-            <Link to="/resume" className="btn btn-primary">
+            <Link to="/resume" className="contact-item">
+              <span className="contact-icon">📄</span>
               View My Resume
             </Link>
           </div>
