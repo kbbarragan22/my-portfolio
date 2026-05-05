@@ -27,7 +27,7 @@ function Navbar() {
         <span className="nav-logo-bracket">/&gt;</span>
       </Link>
       <div className="nav-links">
-        {location.pathname === '/' ? (
+        {location.hash === '' || location.hash === '#/' ? (
           <>
             <button onClick={() => scrollTo('about')} className="nav-scroll-btn">About</button>
             <button onClick={() => scrollTo('projects')} className="nav-scroll-btn">Projects</button>
