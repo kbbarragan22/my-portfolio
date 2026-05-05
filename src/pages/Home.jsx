@@ -149,15 +149,11 @@ function Home() {
               <span className="contact-icon">in</span>
               linkedin.com/in/kevin-barragan
             </a>
-          </div>
-
-          {/* Resume button — outside contact-links */}
-          <div style={{ marginTop: '2rem' }}>
             <Link to="/resume" className="contact-item">
               <span className="contact-icon">📄</span>
               View My Resume
             </Link>
-          </div>
+            </div>
           </div>
       </section>
     </main>
