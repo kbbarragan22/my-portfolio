@@ -1,6 +1,7 @@
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
+import Resume from './pages/Resume';
 import { useEffect, useState } from 'react';
 
 function Navbar() {
@@ -45,6 +46,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
       <footer className="footer">
         <p>© 2026 Kevin Barragan · Built with React</p>
