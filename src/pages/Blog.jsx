@@ -1,4 +1,7 @@
 import { Link } from 'react-router-dom';
+import img21 from "../assets/21.jpg";
+import liesOfP from '../assets/lies_of_p.jpg';
+import theGoat from '../assets/the_goat.jpg';
 
 const blogPosts = [
   {
@@ -7,7 +10,7 @@ const blogPosts = [
     location: 'San Diego, CA',
     title: 'Celebrating my Brother-in-law turing 21!',
     emoji: '🍻',
-    image: 'src/assets/21.jpg',
+    image: img21,
     imageAlt: 'I can not hold my liquour, but this man can not handle me',
     body: [
       `Spring break finally arrived after being drained and exhausted of projects, assignments and collaborations week after week. First rule of business on March 27, 2026 was to congratulate my brother-in-law (the left most person in the photo) a happy 21st birthday. We are really close and have had great moments together like attending both of our first NFL game in 2024 where the Dolphins beat the Rams on Veteran Day at Sofi Stadium, visiting New York during the winter time experiencing a christmas miracle of show near Times Square and spending the last 4 Christmases together.`,
@@ -20,7 +23,7 @@ const blogPosts = [
     location: 'San Diego, CA',
     title: 'If I got free time, I am going to game.',
     emoji: '🎮',
-    image: 'src/assets/lies_of_p.jpg',
+    image: liesOfP,
     imageAlt: 'Git Good',
     body: [
       `The game that is displayed is called "Lies of P." It is a souls-like game meaning that the player has a third-person view of their character, has a health and stamnia bar and there is a roll mechanic all while facing hordes of enemies and unique bosses with scores of heart pounding classical music. This game is about the main character who is a puppet navigating a rundown city being overran by ferral puppets that are killing and pillaging humans. The puppet you play as has a creator name Geppetto leading to the players' name being Pinocchio. I am a fan of this game since it is a soulslike, Tyler the Creator made a song called "Puppet" featuring Kanye West and Kanye West made a song called "Pinocchio Story."`,
@@ -33,7 +36,7 @@ const blogPosts = [
     location: 'Los Angeles, CA',
     title: 'Attending Ye Concert at Sofi Stadium',
     emoji: '🐐',
-    image: 'src/assets/the_goat.jpg',
+    image: theGoat,
     imageAlt: 'Runaway as fast as you can',
     body: [
       `Growing up, I used to sing the song "Runaway" by Kanye West while heading to play a tackle football game at the age of 11. He has always been and will always be my favorite music artist. The man has created music defining albums like College Dropout, Late Registration, Graduation, 808s and Heartbreak, My Beautiful Dark Twisted Fantasy, Watch the Throne, Yeezus, The Life of Pablo, ye, KIDS SEE GHOSTS, JESUS IS KING, Donda, VULTURES 1, VULTURES 2, DONDA 2 and has now released a new amazing album in 2026 called Bully. This man does not miss. He says what we are all thinking. He may have gotten people upset by the wild actions he has taken over the years, but he is human being himself as we all are.`,
