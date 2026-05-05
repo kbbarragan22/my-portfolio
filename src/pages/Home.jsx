@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 const projects = [
   {
@@ -144,6 +145,9 @@ function Home() {
               <span className="contact-icon">in</span>
               linkedin.com/in/kevin-barragan
             </a>
+            <Link to="/resume" className="btn btn-primary" style={{ marginTop: '1.5rem' }}>
+              View My Resume
+            </Link>
           </div>
         </div>
       </section>
