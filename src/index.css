@@ -119,11 +119,35 @@ body {
 .nav-scroll-btn {
   background: none;
   border: none;
-  color: inherit;
-  font: inherit;
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 500;
   cursor: pointer;
   padding: 0;
-  letter-spacing: inherit;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: color 0.2s;
+  position: relative;
+}
+
+.nav-scroll-btn::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--accent);
+  transition: width 0.25s;
+}
+
+.nav-scroll-btn:hover {
+  color: var(--accent);
+}
+
+.nav-scroll-btn:hover::after {
+  width: 100%;
 }
 
 /* ── Buttons ── */
