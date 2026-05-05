@@ -116,6 +116,16 @@ body {
   width: 100%;
 }
 
+.nav-scroll-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  letter-spacing: inherit;
+}
+
 /* ── Buttons ── */
 .btn {
   display: inline-block;
