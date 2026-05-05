@@ -8,6 +8,11 @@ function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
 
+  const scrollTo = (id) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 40);
     window.addEventListener('scroll', handleScroll);
@@ -24,9 +29,9 @@ function Navbar() {
       <div className="nav-links">
         {location.pathname === '/' ? (
           <>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <button onClick={() => scrollTo('about')} className="nav-scroll-btn">About</button>
+            <button onClick={() => scrollTo('projects')} className="nav-scroll-btn">Projects</button>
+            <button onClick={() => scrollTo('contact')} className="nav-scroll-btn">Contact</button>
           </>
         ) : (
           <Link to="/">Home</Link>
