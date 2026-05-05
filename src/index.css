@@ -46,6 +46,24 @@ body {
   transition: background 0.3s, border-bottom 0.3s;
 }
 
+.resume-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.resume-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #111;
+  border-bottom: 1px solid #333;
+}
+.resume-iframe {
+  flex: 1;
+  width: 100%;
+  border: none;
+}
 
 .nav-logo {
   font-family: var(--font-display);
