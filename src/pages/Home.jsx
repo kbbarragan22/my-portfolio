@@ -46,6 +46,10 @@ function ProjectCard({ title, desc, tags, link, index }) {
   );
 }
 
+const scrollTo = (id) => {
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+};
+
 function Home() {
   const heroRef = useRef(null);
 
@@ -77,8 +81,8 @@ function Home() {
             Currently studying Computer Information Systems at California State University, San Marcos.
           </p>
           <div className="hero-cta">
-            <a href="#projects" className="btn btn-primary">See My Work</a>
-            <a href="#contact" className="btn btn-ghost">Get In Touch</a>
+            <button onClick={() => scrollTo('projects')} className="btn btn-primary">See My Work</button>
+            <button onClick={() => scrollTo('contact')} className="btn btn-ghost">Get In Touch</button>
           </div>
         </div>
       </section>
